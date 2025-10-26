@@ -60,11 +60,6 @@ customer_id	INT	Foreign Key → Customer(id)
 
 ⚙️ Installation Steps:
 -----------------------
-Clone or create the project
-
-git clone https://github.com/yourusername/CustomerFeedbackSystem.git
-cd CustomerFeedbackSystem
-
 
 Create MySQL database
 
