@@ -10,7 +10,7 @@ public class MainApp {
         FeedbackDAO dao = new FeedbackDAO();
 
         // Create a customer
-        Customer customer = new Customer("Mahalakshmi", "maha@example.com");
+        Customer customer = new Customer("Dhivya", "dhivya@example.com");
 
         // Create feedback
         Feedback feedback1 = new Feedback("Excellent service!", 5, customer);
@@ -34,3 +34,4 @@ public class MainApp {
         com.customerfeedbackutil.HibernateUtil.shutdown();
     }
 }
+
